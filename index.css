@@ -1,0 +1,33 @@
+body{
+    background-color:red;
+}
+
+.header{
+    text-align: center;
+}
+
+.buttonClass {
+    background-color:black;
+    font-style: italic;
+    font-size: larger;
+
+}
+
+#headerBackgroundColor{
+    background-color:black;
+    font-size:xx-large;
+}
+
+.textColor {
+    color: white;
+}
+
+.textFonts {
+    color: white;
+    font-size: 35px;
+}
+
+.pokemonImageBackground {
+    background-color: white;
+    padding-right:10px;
+}

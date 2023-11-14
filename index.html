@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron header textColor" id="headerBackgroundColor"> Pokemon</div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button class="buttonClass textColor" style="position: absolute;top: 100;right: 100;" onclick="testPokemonAPI()">Click me for pokemon</button>
+                <img id="pokemonImage" class="pokemonImageBackground" src="Pokemon.jpg"  width="500px" height="500px" alt="image">
+            </div>
+            <div class="col-6" style="border: 5px solid white;">
+                <div class="row">
+                    <div class="col-6 text-center textFonts" style="font-weight: bold;">
+                        height
+                    </div>
+                    <div class="col-6 text-center textFonts" id="pokemonHeight">
+                        6
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-center textFonts" style="font-weight: bold;">
+                        weight
+                    </div>
+                    <div class="col-6 text-center textFonts" id="pokemonWeight">
+                        6
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-center textFonts" style="font-weight: bold;">
+                        abilities
+                    </div>
+                    <div class="col-6 text-center textFonts" id="pokemonAbilities">
+                        6
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-center textFonts" style="font-weight: bold;">
+                        order
+                    </div>
+                    <div class="col-6 text-center textFonts" id="pokemonOrder">
+                        6
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-center textFonts" style="font-weight: bold;">
+                        id
+                    </div>
+                    <div class="col-6 text-center textFonts" id="pokemonID">
+                        6
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="pokemonData">Pokemon data is in here</div> -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
